@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: Retina,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+header{
+    font-size: 17px;
+}
+.navigation-Bar{
+    background-color: #1a0014;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+    height: 40px;
+    gap: 2em;
+}
+.navigation-Bar a{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navigation-Bar svg{
+    fill: #ff0e50;
+    height: 1.1em;
+    opacity: 1;
+    margin-right: 0.4em;
+    position: relative;
+    width: 1.1em;
+}
+.navigation-Bar span{
+    font-size: .8232026157rem;
+    color: #f8f8f8;
+}
+.navigation-Bar span:hover{
+    color: #ff0e50;
+}
