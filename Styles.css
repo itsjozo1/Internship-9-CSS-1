@@ -40,3 +40,53 @@ header{
 .navigation-Bar span:hover{
     color: #ff0e50;
 }
+.main-Nav{
+    background-color: #2c0022;
+    color: #f8f8f8;
+    padding: 0 15px;
+    display: flex;
+    height: 100px;
+    align-items: flex-end;
+}
+.main-Nav a{
+    height: auto;
+    max-height: 80px;
+    fill: #fff;
+    margin-right: 0.5em;
+}
+.main-Nav__Logo svg{
+    width: 100%;
+    height: auto;
+    max-height: 80px;
+    fill: #fff;
+}
+.main-Nav__Links-Container{
+    margin: 1.2em 1.2em 0.75em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-Nav__Links-Search{
+    display: flex;
+    justify-content: flex-end;
+    font-size: .8232026157rem;
+    gap: 1.2em;
+}
+.main-Nav__Links-Search p{
+    display: flex;
+    gap: .3em;
+    align-items: center;
+}
+.main-Nav__Links-Search svg{
+    width: 1.1em;
+    height: 1.1em;
+    vertical-align: text-bottom;
+    cursor: pointer;
+    fill: #f8f8f8;
+}
+.main-Nav__Links-Sections ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    margin: 1.5em 0 0;
+}
