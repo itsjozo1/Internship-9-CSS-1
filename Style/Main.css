@@ -26,7 +26,7 @@ main{
     grid-template-rows: auto;
     align-items: center;
     font-size: 1rem;
-    margin-bottom: 0.8em;
+    margin-bottom: 1.2em;
 }
 .culture-header__label{
     grid-column: 1;
@@ -62,7 +62,7 @@ main{
 }
 .culture-header__link{
     text-decoration: none;
-    border-bottom: 3px solid #ff0e50;
+    border-bottom: 4px solid #ff0e50;
     text-transform: uppercase;
     letter-spacing: .07em;
     font-weight: 700;
@@ -89,4 +89,56 @@ main{
 }
 .culture-header__subnav-item a:hover{
     opacity: 0.8;
+}
+.culture-feed__container{
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 20px;
+}
+.culture-feed__featured{
+    grid-column: 1/span 10;
+    height: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+.culture-feed__featured:hover{
+    opacity: 0.8;
+}
+.culture-feed__featured-link{
+    text-decoration: none;
+    position: relative;
+}
+.culture-feed__featured-link img{
+    width: 100%;
+}
+.culture-feed__featured-teaser{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    background-color: #1a0014;
+    color: #f8f8f8;
+    padding: 15px 20px 0 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+}
+.culture-feed__featured-teaser-author{
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-size: .7230659372rem;
+    opacity: 0.85;
+}
+.culture-feed__featured-teaser-desc{
+    margin: 0;
+    font-size: .9372071228rem;
+}
+.culture-feed__featured-teaser-headline{
+    font-family: Register,Georgia,Times,serif;
+    font-size: 2.0408383831rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
 }
