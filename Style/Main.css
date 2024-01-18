@@ -142,3 +142,35 @@ main{
     margin: 0;
     line-height: 1.2;
 }
+.culture-feed__list{
+    grid-column: 11/span 4;
+}
+.culture-feed__list-article{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #f8f8f8;
+}
+.culture-feed__list-article:hover{
+    opacity: .8;
+}
+.list-article__headline{
+    margin: 0;
+    line-height: 1.2;
+    font-size: .9rem;
+}
+.list-article__author{
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    opacity: .85;
+    font-size: .7rem;
+    margin-bottom: 0.1em;
+}
+.list-article__author svg{
+    fill: #ff4900;
+    vertical-align: top;
+    margin-right: 0.17em;
+    width: 1em;
+    height: 1em;
+}
