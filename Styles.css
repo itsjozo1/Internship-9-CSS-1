@@ -13,12 +13,12 @@ header{
 }
 .navigation-Bar{
     background-color: #1a0014;
+    padding: 0 15px;
 }
 .navigation-Bar-Container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 15px;
     height: 40px;
     gap: 2em;
     max-width: 1300px;
@@ -119,4 +119,55 @@ header{
 }
 .section__item a:hover{
     border-bottom-color: #ff0e50;
+}
+.social-navbar{
+    padding: 0 15px;
+    background-color: #1a0014;
+}
+.social-navbar-container{
+    width: 1300px;
+    padding: 0.6em 0 1.8em;
+    margin: auto;
+    color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    font-size: .6776625465rem;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+}
+.social-nabar__strapline{
+    text-decoration: none;
+    color: #f8f8f8;
+    opacity: 0.7;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.social-nabar__strapline:hover{
+    opacity: 0.5;
+}
+.strapline__logo{
+    margin-right: 0.6em;
+    fill: #ff0e50;
+    width: 2.1em;
+    height: 2.3em;
+}
+.social-navbar__media-list{
+    padding: 0 0.6em 0 3em;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.7em 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    opacity: 0.7;
+}
+.social-navbar__media-list svg{
+    padding: 0.2em;
+    fill: #999;
+    line-height: 0;
+}
+.social-navbar__media-list a:hover{
+    opacity: 0.7;
 }
