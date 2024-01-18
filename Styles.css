@@ -8,32 +8,38 @@ body{
     font-weight: 400;
 }
 header{
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: 400;
 }
 .navigation-Bar{
     background-color: #1a0014;
+}
+.navigation-Bar-Container{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 0 15px;
     height: 40px;
     gap: 2em;
+    max-width: 1300px;
+    margin: auto;
 }
-.navigation-Bar a{
+.navigation-Bar-Container a{
+    max-width: 258px;
     cursor: pointer;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
-.navigation-Bar svg{
+.navigation-Bar-Container svg{
     fill: #ff0e50;
-    height: 1.1em;
     opacity: 1;
-    margin-right: 0.4em;
+    margin-right: 0.2em;
     position: relative;
-    width: 1.1em;
+    width: 1em;
+    height: 0.8em;
 }
-.navigation-Bar span{
+.navigation-Bar-Container span{
     font-size: .8232026157rem;
     color: #f8f8f8;
 }
@@ -42,29 +48,36 @@ header{
 }
 .main-Nav{
     background-color: #2c0022;
+}
+.main-Nav-Container{
     color: #f8f8f8;
     padding: 0 15px;
     display: flex;
     height: 100px;
+    max-width: 1300px;
     align-items: flex-end;
+    margin: auto;
 }
 .main-Nav a{
     height: auto;
     max-height: 80px;
     fill: #fff;
     margin-right: 0.5em;
+    line-height: 0;
 }
 .main-Nav__Logo svg{
     width: 100%;
     height: auto;
     max-height: 80px;
     fill: #fff;
+    transform: translateY(5%);
 }
 .main-Nav__Links-Container{
-    margin: 1.2em 1.2em 0.75em;
+    margin: 1.2em 0 0.75em;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-bottom: 0.9em;
 }
 .main-Nav__Links-Search{
     display: flex;
@@ -76,17 +89,34 @@ header{
     display: flex;
     gap: .3em;
     align-items: center;
+    cursor: pointer;
 }
 .main-Nav__Links-Search svg{
     width: 1.1em;
     height: 1.1em;
     vertical-align: text-bottom;
     cursor: pointer;
-    fill: #f8f8f8;
+    fill: currentColor;
+    opacity: .5;
+    margin-right: 0.2em;
 }
-.main-Nav__Links-Sections ul{
+.main-Nav__Links-Sections{
     display: flex;
     list-style: none;
-    gap: 1.5em;
     margin: 1.5em 0 0;
+}
+.section__item{
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-size: 1.067em;
+}
+.section__item a{
+    border-bottom: 4px solid transparent;
+    padding-bottom: 0.2em;
+    text-decoration: none;
+    color: #f8f8f8;
+}
+.section__item a:hover{
+    border-bottom-color: #ff0e50;
 }

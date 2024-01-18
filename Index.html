@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slate Magazine</title>
-    <link rel="stylesheet" href="./Styles.css">
+    <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
     <header>
-        <div class="navigation-Bar">
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Assets/svgIconsMain.svg#sparkle"/>
-                </svg>
-                <span>Join Slate Plus for $5</span>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Assets/svgIconsMain.svg#shop"/>
-                </svg>
-                <span>Slate Shop</span>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Assets/svgIconsMain.svg#quiz"/>
-                </svg>
-                <span>Daily Quiz</span>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Assets/svgIconsMain.svg#newsletters"/>
-                </svg>
-                <span>Newsletters</span>
-            </a>
-            <a href="">
-                <svg xmlns="http://www.w3.org/2000/svg">
-                    <use xlink:href="Assets/svgIconsMain.svg#avatar"/>
-                </svg>
-                <span>Sign In</span>
-            </a>
-        </div>
-        <div class="main-Nav">
+        <section class="navigation-Bar">
+            <div class="navigation-Bar-Container">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Assets/svgIconsMain.svg#sparkle"/>
+                    </svg>
+                    <span>Join Slate Plus for $5</span>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Assets/svgIconsMain.svg#shop"/>
+                    </svg>
+                    <span>Slate Shop</span>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Assets/svgIconsMain.svg#quiz"/>
+                    </svg>
+                    <span>Daily Quiz</span>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Assets/svgIconsMain.svg#newsletters"/>
+                    </svg>
+                    <span>Newsletters</span>
+                </a>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use xlink:href="Assets/svgIconsMain.svg#avatar"/>
+                    </svg>
+                    <span>Sign In</span>
+                </a>
+            </div>
+        </section>
+        <section class="main-Nav">
+            <div class="main-Nav-Container">
                 <a href="https://slate.com/" class="main-Nav__Logo">
                     <svg xmlns="http://www.w3.org/2000/svg">
                         <use xlink:href="Assets/svgIconsSecondary.svg#logo"/>
@@ -62,17 +65,28 @@
                         </p>
                     </div>
                     <div class="main-Nav__Links-Sections">
-                        <ul>
-                            <li>News&Politics</li>
-                            <li>Culture</li>
-                            <li>Technology</li>
-                            <li>Business</li>
-                            <li>Human Interest</li>
-                            <li>Podcasts</li>
-                        </ul>
+                            <li class="section__item">
+                                <a href="">News&Politics</a>
+                            </li>
+                            <li class="section__item">
+                                <a href="">Culture</a>
+                            </li>
+                            <li class="section__item">
+                                <a href="">Technology</a>
+                            </li>
+                            <li class="section__item">
+                                <a href="">Business</a>
+                            </li>
+                            <li class="section__item">
+                                <a href="">Human Interest</a>
+                            </li>
+                            <li class="section__item">
+                                <a href="">Podcasts</a>
+                            </li>
                     </div>
                 </div>
-        </div>
+            </div>
+        </section>
     </header>
 </body>
 </html>
