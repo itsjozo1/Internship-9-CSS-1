@@ -1,0 +1,106 @@
+
+.top-news__grid-container{
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-bottom: 20px;
+}
+.top-news__main-news-container{
+    grid-column: 4/span 9;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.story-card{
+    text-decoration: none;
+    cursor: pointer;
+}
+.story-card img{
+    width: 100%;
+}
+.story-card__teaser{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 65%;
+    padding: 15px 20px 0 0;
+    margin-top: -3.4em;
+    background-color: #1a0014;
+}
+.story-card__headline{
+    font-size: 2.0408383831rem;
+    color: #f8f8f8;
+    text-decoration: none;
+    margin: 0;
+    line-height: 1.2;
+    font-family: Register,Georgia,Times,serif;
+}
+.story-card__byline{
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-size: .7230659372em;
+    color: #f8f8f8;
+}
+.top-news__left-container{
+    grid-column: 1/span 3;
+    display: flex;
+    flex-direction: column;
+}
+.left-container__article{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1em;
+}
+.left-container__article:hover, .story-card:hover, .right-container__article-headline:hover{
+    opacity: .8;
+}
+.left-container__article img{
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+.left-container__article-headline{
+    margin: 0;
+    order: 2;
+    line-height: 1.2;
+    font-size: 1rem;
+    color: #f8f8f8;
+}
+.left-container__article-author{
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-size: .7230659372rem;
+    color: #f8f8f8;
+    opacity: 0.85;
+    margin-bottom: 0.1em;
+}
+.top-news__right-container{
+    grid-column: 13/span 2;
+    color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+}
+.right-container__article{
+    display: flex;
+    flex-direction: column;
+}
+.right-container__article-label{
+    text-transform: uppercase;
+    letter-spacing: .07em;
+    font-size: .8232026157em;
+    color: #c39bad;
+    margin: 0 0 0.5em;
+}
+.right-container__article-headline{
+    line-height: 1.1;
+    font-size: .82em;
+    text-decoration: none;
+    color: #f8f8f8;
+    margin-bottom: 1.9em;
+}
