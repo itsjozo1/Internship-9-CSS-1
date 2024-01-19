@@ -63,11 +63,11 @@ footer{
 .footer__links li{
     margin-bottom: 0.75em;
 }
-.footer__links a{
+footer a{
     color: currentColor;
     text-decoration: none;
 }
-.footer__links a:hover{
+footer a:hover{
     opacity: .8;
 }
 .footer__main-ad{
@@ -80,4 +80,26 @@ footer{
 }
 .footer__brand-section{
     grid-column: 8/span 5;
+}
+.footer__logo{
+    max-width: 100%;
+    fill: #f8f8f8;
+}
+.footer__brand-text{
+    margin-top: 0.75em;
+    margin-bottom: 2em;
+}
+.footer__social-link{
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+.global-footer__social-badge{
+    fill: #56334e;
+    margin-right: 0.5em;
+    vertical-align: middle;
+}
+.footer__legal{
+    background: #23001b;
+    padding: 1.5em 15px;
 }
