@@ -158,3 +158,8 @@
 .technology-feed__promo-link:hover{
     opacity: .8;
 }
+@media (max-width: 1024px) {
+    .technology-feed__featured-teaser{
+        width: 100%;
+    }
+}

@@ -1,8 +1,3 @@
-
-header{
-    font-size: 19px;
-    font-weight: 400;
-}
 .navigation-Bar{
     background-color: #1a0014;
     padding: 0 15px;
@@ -64,6 +59,10 @@ header{
     max-height: 80px;
     fill: #fff;
     transform: translateY(5%);
+    line-height: 0;
+    flex: 1 1 200px;
+    min-width: 120px;
+    max-width: 240px;
 }
 .main-Nav__Links-Container{
     margin: 1.2em 0 0.75em;
@@ -118,7 +117,7 @@ header{
     background-color: #1a0014;
 }
 .social-navbar-container{
-    width: 1300px;
+    max-width: 1300px;
     padding: 0.6em 0 1.8em;
     margin: auto;
     color: #f8f8f8;
@@ -174,4 +173,18 @@ header{
     background-image: repeating-linear-gradient(-45deg,rgba(166,104,132,.3) 0 3px,transparent 3px 6px);
     background-size: 200%;
     background-position-x: -2px;
+}
+@media (max-width: 1440px)
+{
+
+    .main-Nav-Container, .navigation-Bar-Container, .social-navbar-container{
+        max-width: 1000px;
+    }
+}
+@media (max-width: 1024px) {
+    .section__item{
+        margin-left: 0.25em;
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }   
 }

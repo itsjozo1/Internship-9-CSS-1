@@ -156,3 +156,21 @@
     width: 1em;
     height: 1em;
 }
+@media (max-width: 1024px) {
+    .culture-feed__featured-teaser{
+        width: 100%;
+    }
+}
+@media (max-width: 754px){
+    .culture-feed__featured, .culture-feed__list{
+        grid-column: 1/span 14;
+        padding: 0;
+        width: auto;
+    }
+    .culture-feed__featured-teaser{
+        position: relative;
+    }
+    .culture-feed__featured-teaser-headline{
+        font-size: 1.2961572031rem;
+    }
+}

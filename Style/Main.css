@@ -12,6 +12,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-size: 19px;
     font-family: Retina,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     color: #f8f8f8;
@@ -28,4 +29,13 @@ main{
     border-top: 2px solid #999;
     margin-top: 2.1em;
     padding-bottom: 2.1em;
+}
+@media (max-width: 1440px)
+{
+    body{
+        font-size: 15px;
+    }
+    .main-layout{
+        max-width: 1000px;
+    }
 }

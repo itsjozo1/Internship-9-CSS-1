@@ -92,3 +92,17 @@ footer a:hover{
     content: "•";
     margin: 0 0.7em;
 }
+@media (max-width: 1440px)
+{
+    .footer__legal-content, .footer__main-content{
+        max-width: 1000px;
+    }
+}
+@media (max-width: 754px){
+    .footer__main-about, .footer__main-ad, .footer__main-sub{
+        grid-column: span 6;
+    }
+    .footer__brand-section {
+        grid-column: 1 / span12;
+    }
+}
