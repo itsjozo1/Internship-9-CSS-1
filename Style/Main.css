@@ -1,6 +1,7 @@
 @import "Header.css";
 @import "TopNews.css";
 @import "Culture.css";
+@import "Technology.css";
 *{
     margin: 0;
     padding: 0;
@@ -19,71 +20,7 @@ main{
     margin: 0 auto;
     padding: 20px 15px 0;
 }
-.technology-header{
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: auto;
-    align-items: center;
-    font-size: 1rem;
-    margin-bottom: 0.8em;
-}
-.technology-header__label{
-    grid-column: 1;
-    grid-row: 2;
-    font-size: 4.2rem;
-    margin: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .03em;
-    line-height: 1;
-}
-.technology-header__label a{
-    text-decoration: none;
-    color: #f8f8f8;
-    cursor: pointer;
-}
-.technology-header__strapline{
-    grid-column: span 2;
-    grid-row: 1;
-    text-transform: uppercase;
-    letter-spacing: .07em;
-    margin: 0;
-    font-size: .7715113549rem;
-    font-style: italic;
-    color: inherit;
-    opacity: .7;
-}
-.technology-header__link{
-    text-decoration: none;
-    border-bottom: 4px solid #ff0e50;
-    text-transform: uppercase;
-    letter-spacing: .07em;
-    font-weight: 700;
-    font-size: .7230659372rem;
-    white-space: nowrap;
-    color: #f8f8f8;
-}
-.technology-header__link:hover{
-    color: #ff0e50;
-}
-.technology-header__label:hover{
-    opacity: .8;
-}
-.technology-header__subnav-menu{
-    grid-column: span 2;
-    grid-row: 3;
-    font-size: .8232026157rem;
-    display: flex;
-    list-style: none;
-}
-.technology-header__subnav-item a{ 
-    color: #c39bad;
-    text-decoration: none;
-    font-weight: 700;
-    margin-right: 1.5em;
-    margin-top: 0.2em;
-    line-height: 1.8;
-}
-.technology-header__subnav-item a:hover{
-    opacity: 0.8;
+.border{
+    border-top: 2px solid #999;
+    margin: 2.1em 0;
 }
